@@ -54,12 +54,12 @@ kw_model = KeyBERT()
 headers = {'User-Agent': 
            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'}
 
-
+#Removed Login
 db = mysql.connector.connect(
-    host = os.getenv('DATABASE_HOST'),
-    user = os.getenv('DATABASE_USER'),
-    password = os.getenv('DATABASE_PASSWORD'),
-    database = os.getenv('DATABASE')
+    host = os.getenv(''),
+    user = os.getenv(''),
+    password = os.getenv(''),
+    database = os.getenv('')
 )
 
 cursor = db.cursor()
