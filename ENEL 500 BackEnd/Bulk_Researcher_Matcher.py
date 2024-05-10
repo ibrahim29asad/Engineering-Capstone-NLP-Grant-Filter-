@@ -238,14 +238,16 @@ def match_all_researchers():
     
     encoders.encode_base64(part)
     part.add_header("Content-Disposition", f"attachment; filename= {csvfilename}")
-    
-    sender = "ifarmtest2024@gmail.com"
-    recipient = "ifarmtest2024@gmail.com"
 
-    smtp_server = "smtp.gmail.com"
-    smtp_port = 587
-    smtp_username = sender
-    smtp_password = "rnqt nerv uqiw gklb" #this is the app password, not the actual password.
+
+    #Removed Login
+    sender = ""
+    recipient = ""
+
+    smtp_server = ""
+    smtp_port = ""
+    smtp_username = ""
+    smtp_password = "" 
 
     #Creating the email:
     subject = "Matching Results for All Researchers"
