@@ -1,0 +1,137 @@
+body {
+  overflow-x: hidden;
+}
+
+.table-container {
+  margin-left: 0.5vw;
+  width: 98%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.research-table-container {
+  margin-left: 1vw;
+  width: 98%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.data-table {
+  border-collapse: collapse;
+  margin-bottom: 2vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.data-table thead tr {
+  background-color: red;
+  color: #ffffff;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+}
+
+.data-table tbody tr {
+  border-bottom: 2px solid #dddddd;
+}
+
+.data-table tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+.data-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.data-table tbody tr:last-of-type {
+  border-bottom: 2px solid red;
+}
+
+.data-table tbody tr:hover {
+  background-color: #fff8dc;
+}
+
+.data-table td.url-column {
+  max-width: 30vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 2;
+  padding: 10px;
+}
+
+.data-table td.profile-column {
+  width: 25vw;
+  padding: 10px;
+  line-height: 2;
+}
+
+.data-table td.keywords-column {
+  max-width: 54vw;
+  padding: 10px;
+  line-height: 2;
+}
+
+.data-table td.email-column {
+  max-width: 45vw;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 2;
+  padding: 10px;
+}
+.data-table td.closedate-column {
+  padding: 10px;
+}
+
+.data-table td.keywords-researcher-column {
+  max-width: 54vw;
+  padding: 10px;
+  line-height: 2;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.fetch-button {
+  outline: 1px solid black;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.fetch-button:hover {
+  background-color: #d3d3d3;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.delete-btn-column {
+  padding: 10px;
+  text-align: center;
+}
+
+.resend-btn-column {
+  width: 5vw;
+  padding: 10px;
+  text-align: center;
+}
+
+.reason-column {
+  padding: 10px;
+  width: 9vw;
+}

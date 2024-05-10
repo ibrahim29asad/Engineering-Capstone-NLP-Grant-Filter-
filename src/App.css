@@ -1,0 +1,130 @@
+.mainbackground {
+  background-color: #fafad2;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.App-logo {
+  padding-top: 2%;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #fafad2;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+.login-header {
+  background-color: #fafad2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header-Style {
+  background-color: #ffe53b;
+  background-image: linear-gradient(
+    110deg,
+    #ffe53b 22%,
+    #f19014 49%,
+    #ff2525 72%
+  );
+
+  height: 60px;
+  min-height: calc(10px + 2vmin);
+  position: fixed;
+  z-index: 1;
+  width: 94%;
+  margin: 1%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 900;
+  opacity: 0.99;
+  border-radius: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0px 10px;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+/* Hover effect */
+.button:hover {
+  color: white;
+  border-color: #ffffff;
+  border-radius: 5px;
+}
+
+.EnterButton {
+  padding: 0px 10px;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 900;
+  height: 10vmin;
+  line-height: 10vmin;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffe53b;
+  text-align: center;
+  background-image: linear-gradient(
+    225deg,
+    #ffe53b 22%,
+    #f19014 49%,
+    #ff2525 72%
+  );
+  color: black;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.EnterButton:hover {
+  border-color: #ffffff;
+  border-radius: 5px;
+  background-color: #ffe53b;
+  background-image: linear-gradient(
+    225deg,
+    #ffe53b 27%,
+    #f19014 61%,
+    #ff2525 87%
+  );
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,28 @@
+.rerun-selected-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-left: 1vw;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rerun-all-btn {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rerun-selected-btn:hover {
+  background-color: #eedc82;
+}
+
+.rerun-all-btn:hover {
+  background-color: #eedc82;
+}
